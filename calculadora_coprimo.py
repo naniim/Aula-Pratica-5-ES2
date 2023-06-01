@@ -4,7 +4,7 @@ class CalculadoraCoprimo:
     if (x > y):
       return self.mdc(y, x)
     if (x == 0):
-      return y
+      return y+10
     return self.mdc(x, y % x)
 
   def QuantosCoprimos(self, numero_analisado):
